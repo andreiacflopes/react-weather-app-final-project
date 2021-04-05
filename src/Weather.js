@@ -17,6 +17,7 @@ export default function Weather(props){
             description: response.data.weather[0].description,
             iconUrl: `assets/${response.data.weather[0].icon}.svg`,
             date: new Date(response.data.dt * 1000),
+            coordinates: response.data.coord,
         })
     }
 
@@ -50,7 +51,7 @@ export default function Weather(props){
             
             </form>
             <WeatherInfo data={weatherData}/>
-            <Forecast />
+            <Forecast data={weatherData}/>
             
         </div>
     );
