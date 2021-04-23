@@ -4,7 +4,22 @@
     padding: 0px;
     float: none;
 }
-.Forecast-min {
-  opacity: 0.6;
+.Forecast-temperature-min {
+  opacity: .7;
   margin-left: 5px;
+}
+
+.Forecast img {
+    height: 64px;
+    width: 64px;
+}
+
+.Forecast-day{
+  color: white;
+}
+
+.Forecast-temperatures{
+  color: white;
+  top: -16px;
+  position: relative;
 }

@@ -1,7 +1,10 @@
 .Weather {
   border: 1px solid #dadde1;
   padding: 16px;
-  border-radius: 4px;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(180deg, #8BC6EC 0%, #6368c1 100%);
+  border-radius: .25rem;
+
 }
 
 .Weather form {
@@ -9,12 +12,12 @@
 }
 
 .Weather h1 {
-  color: rgb(32, 33, 36);
-  font-size: 22px;
-  font-weight: 400;
+  color:white;
+  font-size: 28px;
+  font-weight: 640;
   line-height: 26px;
   display: block;
-  height: 26px;
+  height: 28px;
   margin: 20px 0 0 0;
 }
 
@@ -24,38 +27,48 @@
 }
 
 .Weather li {
-  color: rgb(112, 117, 122);
+  color: white;
   list-style: none;
-  font-family: arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   height: 20px;
-  line-height: 20px;
+  line-height: 22px;
   width: 326px;
 }
 
+.Weather .details {
+    top: 16px;
+    left: -110px;
+    position: relative;
+    
+
+}
+
 .Weather img {
-    height: 64px;
-    width: 64px;
-    float: left;
-    margin-right: 10px;
+    height: 84px;
+    width: 84px;
+    top: -8px;
+    position: relative;
+    
 }
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(32, 33, 36);
-  font-size: 48px;
+  color: white;
+  font-size: 55px;
   font-weight: 400;
   line-height: 64px;
 }
 
 .Weather .unit {
-    color: rgb(32, 33, 36);
+    color: white;
     font-family: arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1px;
     position: relative;
-    top: -22px;
+    top: -27px;
     margin-left: 0px;
 }
+
+
